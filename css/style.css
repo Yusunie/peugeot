@@ -1,0 +1,221 @@
+body {
+  background-color: #000;
+  font-family: noto;
+}
+
+body #wrap > header {
+  position: relative;
+}
+
+body #wrap > header > h1 {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+body #wrap > header > nav {
+  position: absolute;
+  left: 190px;
+  top: 55px;
+  width: 88%;
+  border-bottom: 1px solid #555;
+}
+
+body #wrap > header > nav > .gnb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  margin-bottom: 20px;
+}
+
+body #wrap > header > nav > .gnb > li {
+  margin-right: 70px;
+  font-size: 20px;
+}
+
+body #wrap > header > nav > .gnb > li > a {
+  color: #fff;
+}
+
+body #wrap section {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #555;
+}
+
+body #wrap section > .apex {
+  width: 100%;
+}
+
+body #wrap section > .apex > figure {
+  padding-top: 160px;
+}
+
+body #wrap section > .apex > figure > video {
+  width: 98%;
+  margin: 0 1.5%;
+}
+
+body #wrap section > aside > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+body #wrap section > aside > ul > li {
+  margin-right: 20px;
+}
+
+body #wrap section > aside > ul > li:last-child {
+  margin-right: 0px;
+}
+
+body #wrap section > aside > ul > li img {
+  width: 100%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+body #wrap section > aside > ul > li img:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+body #wrap section > aside > ul > li > .name {
+  position: relative;
+}
+
+body #wrap section > aside > ul > li > .name a {
+  position: absolute;
+  left: 40%;
+  top: -160px;
+  color: #fff;
+  font-size: 250%;
+}
+
+body #wrap section > h3 {
+  margin-top: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+body #wrap section .sns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 40%;
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+body #wrap section .sns > li {
+  margin-right: 15px;
+}
+
+body #wrap section .sns img {
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+body #wrap section .community {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+body #wrap section .community > li {
+  position: relative;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+body #wrap section .community > li:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+body #wrap section .community img {
+  display: block;
+  width: 92%;
+  height: 71%;
+  margin-left: 20px;
+}
+
+body #wrap section .community p {
+  width: 92%;
+  margin-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-indent: 5%;
+  font-size: 16px;
+  font-weight: 800px;
+  background-color: #fff;
+}
+
+body #wrap section .community .icon {
+  position: absolute;
+  left: 0%;
+  top: 60.5%;
+  width: 15%;
+  height: 15%;
+}
+
+body #wrap section .community span {
+  position: absolute;
+  left: 7%;
+  font-size: 14px;
+  width: 100%;
+}
+
+body #wrap footer {
+  position: relative;
+  margin-top: 50px;
+}
+
+body #wrap footer > .side {
+  position: absolute;
+  left: 8%;
+  top: 100px;
+  color: #777;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+body #wrap footer > .side .homepage {
+  color: #777;
+}
+
+body #wrap footer > .side img {
+  width: 15px;
+  height: 15px;
+}
+
+body #wrap footer address {
+  padding-bottom: 50px;
+  text-align: center;
+  color: #eee;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+body #wrap footer address > p {
+  margin-top: 20px;
+}
+
+body #wrap footer address > p:last-child {
+  margin-top: 0;
+}
+/*# sourceMappingURL=style.css.map */
